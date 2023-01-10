@@ -40,6 +40,7 @@ section {
   padding: 5rem 10%;
 }
 
+
 .heading-link {
   text-align: center;
   background: url(../images/heading-bg.jpg) no-repeat;
@@ -117,8 +118,8 @@ section {
   justify-content: space-around;
 
 }
+.logo {
 
-.header .logo {
   height: 6rem;
   text-transform: capitalize;
   color: #444;
@@ -1104,8 +1105,8 @@ section {
 }
 .introduce .content {
   display: flex;
-  justify-content: space-evenly;  
-
+  justify-content: center;
+  gap: 3rem;
 }
 .introduce .content .image img {
     width: 40rem;
@@ -1158,3 +1159,46 @@ section {
   color: #777;
 }
 /*# sourceMappingURL=style.css.map */
+
+.detail {
+  text-align: center
+}
+
+.detail .content {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.detail .content .introduce-detail {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 1rem;
+}
+
+.detail .content .introduce-detail ul {
+  padding-left: 3rem;
+}
+
+.search-box {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.search-box p {
+  font-size: 2rem;
+  line-height: 2;
+  color: #777;
+}
+
+.search-box p a {
+  color: #0eb582;
+}
+
+.search-box p a:hover {
+  text-decoration: underline;
+}
+
