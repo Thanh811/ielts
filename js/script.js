@@ -1,12 +1,5 @@
 let navbar = document.querySelector(".header .navbar");
 
-document.querySelector("#menu-btn").onclick = () => {
-  navbar.classList.add("active");
-};
-
-
-
-
 let accountForm = document.querySelector(".account-form");
 
 document.querySelector("#account-btn").onclick = () => {

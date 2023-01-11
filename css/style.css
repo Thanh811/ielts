@@ -314,6 +314,7 @@ section {
   background-position: center !important;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 200px;
 }
 
 .home .slide .content {
