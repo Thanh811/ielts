@@ -121,7 +121,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   z-index: 1000;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 .logo {
@@ -139,7 +139,8 @@ section {
 .header .navbar {
   position: relative;
   display: flex;
-  gap: 1rem
+  gap: 1rem;
+  align-items: center;
 }
 
 .header .navbar #close-navbar {
@@ -159,7 +160,7 @@ section {
 
 .header .navbar a {
   margin-right: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: capitalize;
   color: #444;
 }
@@ -852,7 +853,6 @@ section {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
-  padding: 2rem;
   display: flex;
   gap: 1rem
 }
@@ -868,7 +868,7 @@ section {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border: 0.1rem solid #0C1227;
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin: .7rem 0;
   border-radius: 7px
 }
