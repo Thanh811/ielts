@@ -121,8 +121,10 @@ section {
       -ms-flex-align: center;
           align-items: center;
   z-index: 1000;
-  justify-content: space-between;
+}
 
+.header a:first-child {
+  margin-right: auto
 }
 .logo {
 
